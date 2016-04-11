@@ -1,0 +1,13 @@
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+What I'll say about this Rails project is that it's just an example of creating a scaffold (MVC structure), for our first official day of working in Rails.
+
+Terminal/Command Prompt commands we covered include:
+
+rails g controller Name page1 page2
+rails g scaffold Name attr1:datatype attr2:datatype
+rake routes -- show the routes available (even within the "resources :name" line)
+rake db:migrate -- officially creates the table in the database (from the migration file created by "rails g scaffold")
